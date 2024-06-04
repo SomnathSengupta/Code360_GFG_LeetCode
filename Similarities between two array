@@ -1,0 +1,23 @@
+from os import *
+from sys import *
+from collections import *
+from math import *
+
+def findSimilarity(arr1, arr2, n, m):
+
+    count=0
+
+    for i in range(0,len(arr1)):
+
+        if arr1[i] in arr2:
+
+            count+=1        
+
+    x = len ( set(arr1+arr2))
+
+ 
+
+    return [count,x]
+
+    # Write your code here.
+    pass

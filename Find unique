@@ -1,0 +1,7 @@
+import sys
+
+def findUnique(arr, n) :
+    unique = 0
+    for n in arr:
+        unique ^= n
+    return unique
